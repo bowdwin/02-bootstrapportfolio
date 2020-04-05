@@ -1,0 +1,13 @@
+h2 {
+    color: burlywood;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.bg {
+    background-image: url("http://getwallpapers.com/wallpaper/full/2/4/3/542752.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
