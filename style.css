@@ -1,7 +1,9 @@
 h2 {
-    color: burlywood;
+    color:white;
     margin-left: 3px;
     margin-right: 3px;
+    font-family: comic sans-serif;
+  
 }
 .bg {
     background-image: url("http://getwallpapers.com/wallpaper/full/2/4/3/542752.jpg"); /* The image used */
@@ -10,4 +12,9 @@ h2 {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  p1 {
+      color: white;
+      font-size: large;
+      margin-bottom: 20px;
   }
