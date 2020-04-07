@@ -1,0 +1,131 @@
+<!-- Demo Layout for Bootstrap (with cards) -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <!-- We need the following responsive meta tag to ensure things scale correctly across varying
+  devices. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>My First Website</title>
+
+    <!-- We need to bring in the bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <!-- NavBar (copied and pasted from WC3) -->
+    <!-- Static navbar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main Body goes in Container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card-img-overlay h-120 d-flex flex-column justify-content-end">
+                    <a href="https://www.jkrowling.com/book/harry-potter-philosophers-stone/" class="btn btn-primary"
+                        style="background-color: rgb(50, 65, 71); border-color: white; border-width: 1px;">Book
+                        1</a>
+                </div>
+                <img src="./images/Philiospherstone.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="col-sm-3">
+                <div class="card-img-overlay h-120 d-flex flex-column justify-content-end">
+                    <a href="https://www.jkrowling.com/book/harry-potter-philosophers-stone/" class="btn btn-primary"
+                        style="background-color: rgb(50, 65, 71); border-color: white; border-width: 1px;">Book
+                        2</a>
+                </div>
+                <img src="./images/chamberofsecrets.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="col-sm-3">
+                <div class="card-img-overlay h-120 d-flex flex-column justify-content-end">
+                    <a href="https://www.jkrowling.com/book/harry-potter-philosophers-stone/" class="btn btn-primary"
+                        style="background-color: rgb(50, 65, 71); border-color: white; border-width: 1px;">Book
+                        3</a>
+                </div>
+                <img src="./images/prisonerofaz.jpg" class="card-img-top" alt="...">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card-img-overlay h-120 d-flex flex-column justify-content-end">
+                    <a href="https://www.jkrowling.com/book/harry-potter-philosophers-stone/" class="btn btn-primary"
+                        style="background-color: rgb(50, 65, 71); border-color: white; border-width: 1px;">Book
+                        4</a>
+                </div>
+                <img src="./images/gobletoffire.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="col-sm-3">
+                <div class="card-img-overlay h-120 d-flex flex-column justify-content-end">
+                    <a href="https://www.jkrowling.com/book/harry-potter-philosophers-stone/" class="btn btn-primary"
+                        style="background-color: rgb(50, 65, 71); border-color: white; border-width: 1px;">Book
+                        5</a>
+                </div>
+                <img src="./images/orderofphoenix.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="col-sm-3">
+                <div class="card-img-overlay h-120 d-flex flex-column justify-content-end">
+                    <a href="https://www.jkrowling.com/book/harry-potter-philosophers-stone/" class="btn btn-primary"
+                        style="background-color: rgb(50, 65, 71); border-color: white; border-width: 1px;">Book
+                        6</a>
+                </div>
+                <img src="./images/halfbloodprince.jpg" class="card-img-top" alt="...">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card-img-overlay h-120 d-flex flex-column justify-content-end">
+                    <a href="https://www.jkrowling.com/book/harry-potter-philosophers-stone/" class="btn btn-primary"
+                        style="background-color: rgb(50, 65, 71); border-color: white; border-width: 1px;">Book
+                        7</a>
+                </div>
+                <img src="./images/Deathly_Hallows_New_Cover.jpg" class="card-img-top" alt="...">
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <!-- Here we bring in some scripts required to allow some Bootstrap components to work.
+    For now, this is code to copy and paste. We'll get to script elements soon enough. -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
