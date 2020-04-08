@@ -1,8 +1,10 @@
 h2 {
     color:white;
-    margin-left: 3px;
-    margin-right: 3px;
+    /* margin-left: 3px;
+    margin-right: 3px; */
     font-family: comic sans-serif;
+    padding: 0px;
+    margin-top: 10px;
   
 }
 .bg {
@@ -26,3 +28,32 @@ h2 {
     text-align: center;
     padding-bottom: 15px;
   }
+
+  /* .active {
+	
+	
+    background-color: beige;
+  }
+   */
+  .navbar {
+    margin-top: 0px !important;
+    padding: 0px !important;
+    border-right-color: white;
+  }
+  
+
+  @media (max-width: 768px) {
+    .navbar-nav {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 26.5px;
+      padding-bottom: 26.5px;
+      line-height: 27px;
+      text-align: center;
+    }
+  }
+  /* .navbar-padding {
+    padding: 10px 15px 10px 15px;
+  } */ 
+.align-list {
+ 
+}
