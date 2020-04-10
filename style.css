@@ -2,19 +2,25 @@ h1 {
     color:white;
     /* margin-left: 3px;
     margin-right: 3px; */
-    font-family: comic sans-serif;
+    
     padding: 0px;
     margin-top: 10px;
-  
+    font-family: "Oswald", Helvetica;
 }
+
 .bg {
+  background-image: url("./images/hpbackground.jpg"); /* The image used */
+  background-size: cover !important;
+  min-height: 100vh;
+}
+.bg1 {
     background-image: url("./images/hpbackground.jpg"); /* The image used */
-    
     background-color: #cccccc; /* Used if the image is unavailable */
     /* height: 500px; You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+ 
   }
   p1 {
       color: white;
@@ -34,9 +40,6 @@ h1 {
   .bgcolorgreen{
   background-color: rgb(50, 65, 71);
   border: solid 1px lightslategray;
-  }
-
-
   }
    */
   .navbar {
@@ -68,21 +71,31 @@ h1 {
 .portfolio-header {
   color: white;
   padding-left: 20px;
-  border-bottom: lightgray solid 1px;
-  border-top: lightslategray solid 1px;
+
+
   margin-left: 30px;
   margin-right: 30px;
   /* background-color: lightgray; */
 
 }
 .navcontainerborder {
-  border-bottom: lightgray solid 1px;
+  /* border-bottom: lightgray solid 1px;
+  border-left: lightgray solid 1px;
+  border-right: lightgray solid 1px; */
 }
 .container1  {
   margin-top: 0px !important;
   padding: 0px !important;
   border-right-color: white;
-  border-right: lightslategray solid 1px;
+}
+
 .h2classaboutme {
   color: black;
+}
+
+.navcontainerlist {
+  
+  border-left: solid rgb(50, 65, 71) 3px;
+  padding-right: 10px;
+  padding-left: 10px
 }
