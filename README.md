@@ -1,7 +1,4 @@
-# bowdwin.munited-gmail.com
-bowdwin
-02-bootstrapportfolio
-
+# Harry Potter Portfolio hw-2
 
 Harry Potter Homework portfolio assignment 2
 Site link https://bowdwin.github.io/02-bootstrapportfolio/
@@ -9,6 +6,7 @@ Site link https://bowdwin.github.io/02-bootstrapportfolio/
 
 * This was our 2nd homework assignement.  Instead of doing a portfolio about myself,  I figured I would create a portfolio page of Harry Potter Books and Movies as well as an about page of the author and a contact form.  All books link to the books offical sites and the movies link to trailers on youtube.com
 * Project status: working/prototype
+* Spent a lot of time on this, still more time is needed to name the divs correctly and update the alt on images but i'm going to concentrate of Java script :)
 
 ## Screen shot of "Books"
 
